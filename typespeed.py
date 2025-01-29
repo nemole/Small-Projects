@@ -7,7 +7,7 @@ for i in range(15):
     word = word + chr(num)
 
 first = time.perf_counter()
-print("Type: " + word)
+print("Type:          " + word)
 while True:
     answer = input("Type the word: ")
     if answer == word:
